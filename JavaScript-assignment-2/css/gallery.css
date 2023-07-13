@@ -1,0 +1,26 @@
+html {
+    align-items: center;
+    text-align: center;
+}
+
+#img-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.thumb {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+}
+
+.thumb:hover {
+    transform: scale(1.1);
+}
+
+#largeImage {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+}
+
